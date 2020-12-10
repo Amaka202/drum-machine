@@ -1,4 +1,4 @@
-A color factory where a user can choose their own colors, the color gets rendered in the list of colors, and when clicked leads the user to the colors page with coresponsing background color. built with react and react redux for state management
+the freecodecamp drum machine
  
 # Getting Started with Create React App
 

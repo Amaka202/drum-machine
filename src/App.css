@@ -1,54 +1,44 @@
-*{
+body{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    background-color: grey;
+    font-family: Russo One;
 }
-
-header{
-    text-align: center;
-    background-color: aqua;
-    padding: 1rem;
-}
-
-header h2{
-    margin-bottom: 2rem;
-}
-
-.listDiv {
-    text-align: center;
-}
-
-.listDiv p{
-    margin: 1rem;
-}
-
-.listDiv li{
-    margin: 1rem;
-    list-style: none;
-}
-
-.color-form{
-    width: 600px;
-    height: 400px;
-    background-color: aqua;
+#drum-machine{
+    padding: 2rem;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 20%;
+    outline: 5px solid orange;
+    position: relative;
+    width: 320px;
     text-align: center;
+    background-color: #b3b3b3;
 }
 
-.color-form input{
-    height: 40px;
-    width: 180px;
-    margin-bottom: 10px;
-}
-
-.color-form button{
-    padding: 10px;
+.drum-pad{
+    margin: 0.3rem;
+    background-color: #808080;
+    border-radius: 5px;
+    box-shadow: black 3px 3px 5px;
     cursor: pointer;
-    border-radius: 20px;
-    border: none;
+    width: 100px;
+    height: 80px;
+    font-weight: 900;
 }
 
-.colorDiv{
-    height: 200px;
-    width: 200px;
+.flexed{
+    display: flex;
+    justify-content: space-around;
+}
+
+.drum-pad:active{
+    background-color: orange;
+}
+
+#display{
+    /* height: 50px;
+    width: 50px; */
+    background-color: #808080;
+    margin-top: 5rem;
 }
