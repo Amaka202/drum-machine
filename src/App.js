@@ -5,29 +5,19 @@ import Drum from "./Drum"
 export default function App() {
   const [sound, setSound] = useState("");
 
-  const styles = (StyleSheet = {
-    container: {
-      display: "flex",
-      flexWrap: "wrap",
-      justifyContent: "center",
-      alignItems: "center"
-    }
-  })
-
   const handleClick = animal => {
     setSound(animal);
   };
 
   return (
-    <div style={styles.container}>
-      {/* <h1>Drum machine</h1> */}
+    <div >
       <div id="drum-machine">
-        <div id="dspl">
-          <strong id="display" style={{ letterTransform: "capitalize" }}>
+        <div >
+          <strong id="display" >
             {sound}
           </strong>
         </div>
-        <div style={styles.container}>
+        <div >
           {data.map((val, i) => (
             <Drum
               key={val.id + i}

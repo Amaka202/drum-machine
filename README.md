@@ -1,4 +1,4 @@
-the freecodecamp drum machine
+drum machine that when click makes an appropriate sound
  
 # Getting Started with Create React App
 
